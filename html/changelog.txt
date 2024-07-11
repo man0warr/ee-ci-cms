@@ -1,0 +1,156 @@
+---September 09, 2016 ---
+#Version 2.80
+Fixed PHP 5.6 errors
+
+---December 16, 2015 ---
+#Version 2.79
+Fixed all PHP short tags.
+Fixed the Admin Forgot Password system.
+Fixed the General Settings form validation issues.
+Fixed the relative URL issue on mediaboxes.
+Fxied the error caused when changing the type of built-in user groups.
+Added the ability to add scripts into the footer from the content type.
+Added multiple recipients on notification emails.
+Updated the way the developer email system operates.
+Updated the way the system deals with User documents.
+Updated the default theme.
+Removed the mobile theme.
+Removed unused User module views.
+Renamed content.css to ckeditor.css.
+
+---June 7, 2015 ---
+#Version 2.78
+Upgraded the site search.
+Added Navigations to the dropdown for content type fields.
+Added File Manager to Administrator User Groups selection.
+
+---April 1, 2015 ---
+#Version 2.77
+Added a file and image manager.
+Prevented browsing to the assets folder.
+Moved the dynamically generated sitemap into the framework.
+
+---March 11, 2015 ---
+#Version 2.76
+Fixed the 'Clear Cache' function.
+Added mediaboxes to the fields selection on content type, fields.
+Fixed Media box initial sort order.
+Removed unused category id column from content type database table.
+
+---January 6, 2015 ---
+#Version 2.75
+Fixed default value of gallery link target.
+Added a home layout.
+Upgraded CKEditor as old version did not support IE11.
+Updated admin icons.
+Deleted unused Categories Tag and Archives Tag.
+Added file upload feature to contact form plugin.
+Added Code Snippets module.
+Added Mediabox module.
+
+---December 30, 2014 ---
+#Version 2.71
+Updated galleries module field lengths and added source button to ckedit.
+Added 'top' and 'children' attributes to the navigations module.
+Added a developers email.
+Updated the database password.
+
+---April 30, 2014 ---
+#Version 2.7
+Fixed a general PHP syntax error.
+Added more options to fancyBox in the galleries module.
+Added prettyPhoto to the galleries module.
+
+---April 02, 2014 ---
+#Version 2.6
+Fixed sort order of Testimonials.
+Fixed Disable Current, Subnav Visibility and Nested parameters of the Navigations Tag.
+Fixed problem with content module returning mixed content entries.
+Removed the Set Layout and Set Metadata Tags.
+Changed maps to latest Google Maps Embed API.
+Configured the full CKEditor layout for Blog Entries.
+Added an option to remove the comments from the Blog Post view.
+Added a CAPTCHA for Blog comments.
+Added an option for Search module to search content types.
+Added Single Line parameter to the Address Tag.
+Added an option to indicate that the CMS Version has been modified.
+Added a tag for the Einstein's Eyes Web Design Link.
+
+---February 11, 2014 ---
+#Version 2.5
+Updated the admin footer.
+Updated the admin header, adding a link to eeCMS documentation.
+Removed some unused code from the modules model.
+Upgraded FancyBox to v2.1.5.
+Restructured the Blog and Search view templates with SEO and usability in mind.
+Added archive links to blog module.
+Blog module set to version 1.2.
+Fixed google map zoom issue.
+Added new partials view to default theme.
+
+---November 13, 2013 ---
+#Version 2.4
+Fixed admin permissions.
+
+---November 13, 2013 ---
+#Version 2.3
+Added section tags to Blog views.
+
+---November 13, 2013 ---
+#Version 2.2
+Added Blog module.
+Added Testimonials module.
+Removed Comments module (Comments are now part of Blog).
+Added Modules tab to settings.
+Added CMS version number and Admin footer.
+
+---November 8, 2013 ---
+#Version 2.1
+Added Map module.
+Added Search module.
+Added to plugins Helper file.
+Added an attribute to the Navigation module to specify the class for an active menu item.
+Improved the contact form validation message where the plain element name was being used as the label.
+Changed the required fields on the general settings page.
+
+---November 7, 2013 ---
+#Version 2.0
+Fixed bugs and added extra fields to galleries module.
+
+---June 5, 2013 ---
+#Version 1.7
+Added permanent redirect code to .htaccess for pushing live.
+
+---March 20, 2013---
+#Version 1.6
+Moved URL field in content editor to Content tab.
+
+---March 4, 2013---
+#Version 1.5
+Added success_message attribute to contact:form helper.
+Added phone, fax, address to general settings w/ corresponding helper functions.
+
+---February 26, 2013---
+#Version 1.4
+Fixed image selector in Gallery image edit.
+Fixed "Suspend Site Field Required" bug in admin panel settings.
+
+---February 6, 2013---
+#Version 1.3
+Mobile theme changes, added new helpers (safe mailto, str_replace)
+
+---December 19, 2012---
+#Version 1.2
+Added captcha support to contact form.
+
+---December 17, 2012---
+#Version 1.1
+Fixed user session variable name type (namne -> name)
+
+---December 14, 2012---
+#Version 1.0
+Added this log.
+Mobile theme/logic in CMS but incomplete.
+    Need to switch database code to models
+    Need to add mobile as another field in content types (rather than a separate mobile_ content type).
+Comments module is being developed but not yet in base CMS.
