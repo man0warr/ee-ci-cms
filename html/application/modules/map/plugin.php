@@ -20,7 +20,7 @@ class Map_plugin extends Plugin
 
         /* Define the URL parameters. */
         $mode = 'place';
-        $api_key = 'AIzaSyArIaSX56fdGsa87kxZsApeVWXykAh_v2Q';
+        $api_key = '';
         $q = urlencode($address);
         $zoom = $this->attribute('address') ? $this->attribute('zoom', 15) : 4;
         $maptype = $this->attribute('maptype', 'roadmap');
